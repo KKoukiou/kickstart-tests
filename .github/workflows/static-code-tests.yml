@@ -13,6 +13,7 @@ jobs:
       - name: Set up dependencies
         run: |
           sudo snap install ruff 
+          sudo apt -y install pylint3
           
       - name: Clone repository
         uses: actions/checkout@v4
