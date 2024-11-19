@@ -15,6 +15,7 @@ RUN dnf -y update && \
     lorax-lmc-virt \
     parallel \
     python3-libvirt \
+    qemu-kvm-core \
     createrepo_c \
     python3-pip \
     python3-rpmfluff \
